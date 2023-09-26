@@ -1,6 +1,6 @@
 function writePassword() {
 
-generateBtn.addEventListener("click", writePassword);
+generateBtn.addEventListener("click", writePassword, prompt);
 var generateBtn = document.querySelector("#generate");
 var password = generatePassword();
 var passwordText = document.querySelector("#password");
@@ -17,7 +17,7 @@ var writePassword = function () {
   return;
   }
 
-  const result= Math.random ().toString(36).substring(2, 30);
+  var result = Math.random ().toString(18).toUpperCase().slice(2);
   console.log (result);
 
    alert("New Password: " + result);
@@ -26,5 +26,4 @@ var writePassword = function () {
    }
    
    writePassword()
-
 
