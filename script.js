@@ -1,6 +1,7 @@
-function writePassword() {
+function writePassword(prompt) {
 
-generateBtn.addEventListener("click", writePassword, prompt);
+generateBtn.addEventListener("click", prompt);
+console.log(prompt);
 var generateBtn = document.querySelector("#generate");
 var password = generatePassword();
 var passwordText = document.querySelector("#password");
@@ -9,21 +10,22 @@ passwordText.value = password;
 
 }
 
-var writePassword = function () {
+var writePassword = function (result) {
 
   var generatePassword = prompt("Enter no. of characters: ");
 
   if (!generatePassword) {
   return;
   }
-
-  var result = Math.random ().toString(18).toUpperCase().slice(2);
+  
+  var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&* '.split;
+  console.log(characters);
+  var result = Math.random (characters).toString(30).slice(2);
   console.log (result);
-
+  
    alert("New Password: " + result);
    return writePassword(prompt);
-   
-   }
+  }
    
    writePassword()
 
