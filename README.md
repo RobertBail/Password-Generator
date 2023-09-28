@@ -3,3 +3,4 @@
 The purpose of this project is to create a prompt which generates random passwords for the user.
 ## Link
 ## Screenshot
+![alt text](images/password-generator-screenshot.png)

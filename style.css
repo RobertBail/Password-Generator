@@ -2,6 +2,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  
 }
 
 html,
@@ -10,17 +11,20 @@ body,
   height: 100%;
   margin: 0;
   padding: 0;
+
 }
 
 body {
   font-family: sans-serif;
   background-color: #f9fbfd;
+  display: flex;
 }
 
 .wrapper {
   padding-top: 30px;
   padding-left: 20px;
   padding-right: 20px;
+  
 }
 
 header {

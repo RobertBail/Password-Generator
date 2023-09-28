@@ -20,8 +20,8 @@ var writePassword = function (result) {
   
   var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&* '.split;
   console.log(characters);
-  var result = Math.random (characters).toString(30).slice(2);
-  console.log (result);
+  var result = Math.random ().toString(30).slice(2);
+  console.log ("New Password: " + result);
   
    alert("New Password: " + result);
    return writePassword(prompt);
