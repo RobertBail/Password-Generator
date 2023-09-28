@@ -1,8 +1,4 @@
-function init (){
-  writePassword();
-}
-
-function writePassword(prompt) {
+function init(prompt) {
 
 generateBtn.addEventListener("click", prompt);
 console.log(prompt);
