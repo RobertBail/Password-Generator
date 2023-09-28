@@ -1,5 +1,5 @@
 function init (){
-  writePassword(prompt);
+  writePassword();
 }
 
 function writePassword(prompt) {
