@@ -27,5 +27,4 @@ var writePassword = function (result) {
    return writePassword(prompt);
   }
    
-   writePassword()
-
+   writePassword();
