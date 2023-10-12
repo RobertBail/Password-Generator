@@ -4,4 +4,4 @@ The purpose of this project is to create a prompt which generates random passwor
 ## Link
 https://robertbail.github.io/Password-Generator/
 ## Screenshot
-![alt text](images/password-generator-screenshot.png)
+![alt text](images/password-generator-screenshot-resubmit.png)
